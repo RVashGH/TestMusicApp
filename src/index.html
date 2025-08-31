@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tracks">
+        <div class="track">
+            <button class="play" id="play-01"><b>1</b></button>
+            <div class="track-info">
+                <span class="track-name">Говновоз угрожает</span>
+                <span class="track-artist">Ромашка</span>
+            </div>
+        </div>
+        <div class="track">
+            <button class="play" id="play-02"><b>2</b></button>
+            <div class="track-info">
+                <span class="track-name">Государственный Гимн Говновозии</span>
+                <span class="track-artist">Ромашка</span>
+            </div>
+        </div>
+        <div class="track">
+            <button class="play" id="play-03"><b>3</b></button>
+            <div class="track-info">
+                <span class="track-name">Красный говновоз</span>
+                <span class="track-artist">Ромашка, FRYSERS</span>
+            </div>
+        </div>
+        <div class="track">
+            <button class="play" id="play-04"><b>4</b></button>
+            <div class="track-info">
+                <span class="track-name">Мы победители boy next door</span>
+                <span class="track-artist">Ромашка, FRYSERS</span>
+            </div>
+        </div>
+    </div>
+    
+        <!-- <li><button class="play" id="play-02"><b>2</b></button>Государственный Гимн Говновозии<br><i>Ромашка</i></li>
+        <li><button class="play" id="play-03"><b>3</b></button>Красный говновоз<br><i>Ромашка, FRYSERS</i></li>
+        <li><button class="play" id="play-04"><b>4</b></button>Мы победители boy next door<br><i>Ромашка, FRYSERS</i></li> -->
+
+    <br>
+    <button id="prev-btn">⏮️</button>
+    <button id="state-btn">▶️</button>
+    <button id="next-btn">⏭️</button>
+
+    <audio id="player">
+        <source src="" type="audio/flac">
+    </audio>
+
+    <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+    <script src="main.js"></script>
+</body>
+</html>

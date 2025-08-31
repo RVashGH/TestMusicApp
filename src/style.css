@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+.tracks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 60px;
+    /* padding-left: 60px; */
+    margin-top: -50px;
+}
+
+.play {
+    height: 50px;
+    width: 50px;
+}
+
+.track-name {
+    font-size: 1.25rem;
+}
+
+.track-artist {
+    font-size: 1rem;
+}
